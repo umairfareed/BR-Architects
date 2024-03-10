@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    
+}
+main{
+    flex: 1 0 auto;
+}
+#hero{
+    background-image: url(../Assets/hero.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero h1{
+    font-size: 40px;
+}
+#About img{
+    filter: grayscale(0.8);
+}
